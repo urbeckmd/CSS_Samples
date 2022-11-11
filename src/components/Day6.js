@@ -10,7 +10,7 @@ function Day6() {
             <div class="circle-1__day6"></div>
             <div class="circle-2__day6"></div>
             <img
-              src="./day6.jpg"
+              src="./Day6.jpg"
               alt="Matt Urbeck"
               width="70"
               height="70"
