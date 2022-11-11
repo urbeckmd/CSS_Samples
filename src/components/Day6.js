@@ -4,12 +4,12 @@ import image from "./Day6.jpg";
 
 function Day6() {
   return (
-    <div class="frame__day6">
-      <div class="center__day6">
-        <div class="profile__day6">
-          <div class="image__day6">
-            <div class="circle-1__day6"></div>
-            <div class="circle-2__day6"></div>
+    <div className="frame__day6">
+      <div className="center__day6">
+        <div className="profile__day6">
+          <div className="image__day6">
+            <div className="circle-1__day6"></div>
+            <div className="circle-2__day6"></div>
             <img
               src={image}
               alt="Matt"
@@ -17,25 +17,25 @@ function Day6() {
               height="70"
             ></img>
           </div>
-          <div class="name__day6">Matt Urbeck</div>
-          <div class="job__day6">Engineer</div>
-          <div class="actions__day6">
-            <button class="btn__day6">Follow</button>
-            <button class="btn__day6">Message</button>
+          <div className="name__day6">Matt Urbeck</div>
+          <div className="job__day6">Engineer</div>
+          <div className="actions__day6">
+            <button className="btn__day6">Follow</button>
+            <button className="btn__day6">Message</button>
           </div>
         </div>
-        <div class="stats__day6">
-          <div class="box__day6">
-            <span class="value__day6">523</span>
-            <span class="parameter__day6">Posts</span>
+        <div className="stats__day6">
+          <div className="box__day6">
+            <span className="value__day6">523</span>
+            <span className="parameter__day6">Posts</span>
           </div>
-          <div class="box__day6">
-            <span class="value__day6">1387</span>
-            <span class="parameter__day6">Likes</span>
+          <div className="box__day6">
+            <span className="value__day6">1387</span>
+            <span className="parameter__day6">Likes</span>
           </div>
-          <div class="box__day6">
-            <span class="value__day6">146</span>
-            <span class="parameter__day6">Followers</span>
+          <div className="box__day6">
+            <span className="value__day6">146</span>
+            <span className="parameter__day6">Followers</span>
           </div>
         </div>
       </div>
