@@ -1,5 +1,6 @@
 import React from "react";
 import "./Day6.css";
+import image from "./Day6.jpg";
 
 function Day6() {
   return (
@@ -10,8 +11,8 @@ function Day6() {
             <div class="circle-1__day6"></div>
             <div class="circle-2__day6"></div>
             <img
-              src="./Day6.jpg"
-              alt="Matt Urbeck"
+              src={image}
+              alt="Matt"
               width="70"
               height="70"
             ></img>
