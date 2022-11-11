@@ -3,9 +3,10 @@ import Day1 from "./components/Day1";
 import Day2 from "./components/Day2";
 import Day3 from "./components/Day3";
 import Day4 from "./components/Day4";
+import Day6 from "./components/Day6";
 
 function App() {
-  const sampleArray = [<Day1 />, <Day2 />, <Day3 />, <Day4 />];
+  const sampleArray = [<Day1 />, <Day2 />, <Day3 />, <Day4 />, <Day6 />];
 
   return (
     <div className="app">
