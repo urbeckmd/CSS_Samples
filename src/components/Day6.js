@@ -1,4 +1,5 @@
 import React from "react";
+import "./Day6.css";
 
 function Day6() {
   return (
