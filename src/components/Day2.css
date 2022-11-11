@@ -1,10 +1,10 @@
 :root {
-    --menu-icon-line-height: 8px;
-    --menu-icon-line-space: 14px;
-    --menu-icon-line-offsetY: calc(var(--menu-icon-line-height) + var(--menu-icon-line-space));
-    --menu-icon-height: calc(3*var(--menu-icon-line-height) + 2*var(--menu-icon-line-space));
-    --cubic-bezier-in: cubic-bezier(0.30, 1, 0.70, 1);
-    --cubic-bezier-out: cubic-bezier(1, 0.70, 1, 0.30);
+    --menu-icon-line-height-day2: 8px;
+    --menu-icon-line-space-day2: 14px;
+    --menu-icon-line-offsetY-day2: calc(var(--menu-icon-line-height-day2) + var(--menu-icon-line-space-day2));
+    --menu-icon-height-day2: calc(3*var(--menu-icon-line-height-day2) + 2*var(--menu-icon-line-space-day2));
+    --cubic-bezier-in-day2: cubic-bezier(0.30, 1, 0.70, 1);
+    --cubic-bezier-out-day2: cubic-bezier(1, 0.70, 1, 0.30);
 }
 
 .frame__day2 {
@@ -26,13 +26,13 @@
 
 .menu-icon__day2 {
     width: 80px;
-    height: var(--menu-icon-height);
+    height: var(--menu-icon-height-day2);
     cursor: pointer;
     z-index: 50;
 }
 
 .menu-icon__day2 > :is(.line-1__day2, .line-2__day2, .line-3__day2) {
-    height: var(--menu-icon-line-height);
+    height: var(--menu-icon-line-height-day2);
     width: 100%;
     background-color: white;
     border-radius: 3px;
@@ -44,7 +44,7 @@
 }
 
 .menu-icon__day2 > .line-2__day2 {
-    margin: var(--menu-icon-line-space) 0;
+    margin: var(--menu-icon-line-space-day2) 0;
     animation: animate-line-2-rev .7s ease-in-out;
 }
 
@@ -53,14 +53,14 @@
 }
 
 .menu-icon__day2.active > .line-1__day2 {
-    animation: animate-line-1 .7s var(--cubic-bezier-in) forwards;
+    animation: animate-line-1 .7s var(--cubic-bezier-in-day2) forwards;
 }
 
 .menu-icon__day2.active > .line-2__day2 {
-    animation: animate-line-2 .7s var(--cubic-bezier-in) forwards;
+    animation: animate-line-2 .7s var(--cubic-bezier-in-day2) forwards;
 }
 .menu-icon__day2.active > .line-3__day2 {
-    animation: animate-line-3 .7s var(--cubic-bezier-in) forwards;
+    animation: animate-line-3 .7s var(--cubic-bezier-in-day2) forwards;
 }
 
 .no-animation__day2 {
@@ -72,10 +72,10 @@
         transform: translate3d(0,0,0) rotate(0deg);
     }
     50% {
-        transform: translate3d(0, var(--menu-icon-line-offsetY), 0) rotate(0deg);
+        transform: translate3d(0, var(--menu-icon-line-offsetY-day2), 0) rotate(0deg);
     }
     100% {
-        transform: translate3d(0, var(--menu-icon-line-offsetY), 0) rotate(45deg);
+        transform: translate3d(0, var(--menu-icon-line-offsetY-day2), 0) rotate(45deg);
     }
 }
 
@@ -95,19 +95,19 @@
         transform: translate3d(0,0,0) rotate(0deg);
     }
     50% {
-        transform: translate3d(0, calc(-1*var(--menu-icon-line-offsetY)), 0) rotate(0deg);
+        transform: translate3d(0, calc(-1*var(--menu-icon-line-offsetY-day2)), 0) rotate(0deg);
     }
     100% {
-        transform: translate3d(0, calc(-1*var(--menu-icon-line-offsetY)), 0) rotate(135deg);
+        transform: translate3d(0, calc(-1*var(--menu-icon-line-offsetY-day2)), 0) rotate(135deg);
     }
 }
 
 @keyframes animate-line-1-rev {
     0% {
-        transform: translate3d(0, var(--menu-icon-line-offsetY), 0) rotate(45deg);
+        transform: translate3d(0, var(--menu-icon-line-offsetY-day2), 0) rotate(45deg);
     }
     50% {
-        transform: translate3d(0, var(--menu-icon-line-offsetY), 0) rotate(0deg);
+        transform: translate3d(0, var(--menu-icon-line-offsetY-day2), 0) rotate(0deg);
     }
     100% {
         transform: translate3d(0, 0, 0) rotate(0deg);
@@ -127,10 +127,10 @@
 
 @keyframes animate-line-3-rev {
     0% {
-        transform: translate3d(0, calc(-1*var(--menu-icon-line-offsetY)), 0) rotate(135deg);
+        transform: translate3d(0, calc(-1*var(--menu-icon-line-offsetY-day2)), 0) rotate(135deg);
     }
     50% {
-        transform: translate3d(0, calc(-1*var(--menu-icon-line-offsetY)), 0) rotate(0deg);
+        transform: translate3d(0, calc(-1*var(--menu-icon-line-offsetY-day2)), 0) rotate(0deg);
     }
     100% {
         transform: translate3d(0, 0, 0) rotate(0deg);
