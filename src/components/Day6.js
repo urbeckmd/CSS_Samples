@@ -11,6 +11,7 @@ function Day6() {
             <div className="circle-1__day6"></div>
             <div className="circle-2__day6"></div>
             <img
+              className="img__day6"
               src={image}
               alt="Matt"
               width="70"

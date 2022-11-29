@@ -75,7 +75,7 @@
     animation: circle-2-rotate-rev 1s ease-in-out;
 }
 
-img {
+.img__day6 {
     display: block;
     border-radius: 50%;
     background: #F5E8DF;
