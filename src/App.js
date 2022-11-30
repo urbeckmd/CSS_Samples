@@ -9,6 +9,7 @@ import Day87 from "./components/Day87";
 import Day48 from "./components/Day48";
 import Day37 from "./components/Day37";
 import Day101 from "./components/Day101";
+import Day103 from "./components/Day103";
 
 function App() {
   const sampleArray = [
@@ -22,6 +23,7 @@ function App() {
     <Day48 />,
     <Day37 />,
     <Day101 />,
+    <Day103 />,
   ];
 
   return (
